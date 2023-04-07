@@ -92,10 +92,10 @@ On first start-up, the _Terasology Launcher_ will prompt you with the selection 
 The *data directory* is the place for configuration data and user-specific files such as key bindings and save games.
 The suggested default is a new directory in the user's home directory.
 
-![Terasology Launcher UI](docs/images/200314_TerasologyLauncher_UI.png)
+![Terasology Launcher UI](docs/images/230407_TerasologyLauncher_UI.png)
 
 The *Terasology Launcher UI* provides functionality to download, start, and delete different game versions.
-The game versions are grouped by the type of build they belong to:
+By default, only the somewhat stable released game versions are shown. In the settings, you can also opt-in to see previews and nightly builds.
 
 <table align="center">
   <thead align="left"><tr>
@@ -103,12 +103,16 @@ The game versions are grouped by the type of build they belong to:
     <th width="60%">Explanation</th>
   </tr></thead>
   <tr>
-    <td width="40%"><b>Terasology</b></td>
-    <td width="60%">Released version of Terasology core game bundled with modules</td>
+    <td width="40%"><b>release</b></td>
+    <td width="60%">Released version of Terasology core game bundled with modules, main gameplays tested</td>
   </tr>  
   <tr>
-    <td width="40%"><b>Terasology Lite</b></td>
-    <td width="60%">Released version of Terasology core game only</td>
+    <td width="40%"><b>preview</b></td>
+    <td width="60%">Preview version of Terasology core game bundled with modules, release candidate used for playtests, may contain bigger issues</td>
+  </tr>
+  <tr>
+    <td width="40%"><b>nightly</b></td>
+    <td width="60%">Daily built version of Terasology core game bundled with modules, used for dev purposes, likely to contain bigger issues</td>
   </tr>
 </table>
 
