@@ -99,20 +99,20 @@ By default, only the somewhat stable released game versions are shown. In the se
 
 <table align="center">
   <thead align="left"><tr>
-    <th width="40%">Build Type</th>
-    <th width="60%">Explanation</th>
+    <th width="15%">Build Type</th>
+    <th width="85%">Explanation</th>
   </tr></thead>
   <tr>
-    <td width="40%"><b>release</b></td>
-    <td width="60%">Released version of Terasology core game bundled with modules, main gameplays tested</td>
+    <td width="15%"><b>release</b></td>
+    <td width="85%">Released version of Terasology core game bundled with modules, main gameplays tested</td>
   </tr>  
   <tr>
-    <td width="40%"><b>preview</b></td>
-    <td width="60%">Preview version of Terasology core game bundled with modules, release candidate used for playtests, may contain bigger issues</td>
+    <td width="15%"><b>preview</b></td>
+    <td width="85%">Preview version of Terasology core game bundled with modules, release candidate used for playtests, may contain bigger issues</td>
   </tr>
   <tr>
-    <td width="40%"><b>nightly</b></td>
-    <td width="60%">Daily built version of Terasology core game bundled with modules, used for dev purposes, likely to contain bigger issues</td>
+    <td width="15%"><b>nightly</b></td>
+    <td width="85%">Daily built version of Terasology core game bundled with modules, used for dev purposes, likely to contain bigger issues</td>
   </tr>
 </table>
 
